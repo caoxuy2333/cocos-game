@@ -1,0 +1,2886 @@
+2023-05-03T14:54:18.557Z - verbose: Arguments:
+2023-05-03T14:54:18.557Z - verbose:   C:\ProgramData\cocos\editors\Creator\3.7.1\CocosCreator.exe: true
+2023-05-03T14:54:18.557Z - verbose:   project: D:\trunk\NewProject_2
+2023-05-03T14:54:18.557Z - verbose:   dev: false
+2023-05-03T14:54:18.557Z - verbose:   home: C:\Users\Admin\.CocosCreator
+2023-05-03T14:54:18.557Z - verbose:  
+2023-05-03T14:54:22.829Z - verbose: [Package] menu@1.0.0 enable
+2023-05-03T14:54:22.832Z - verbose: [Package] profile@1.0.0 enable
+2023-05-03T14:54:22.840Z - verbose: [Package] project@1.0.4 enable
+2023-05-03T14:54:22.849Z - verbose: [Package] messages@1.0.0 enable
+2023-05-03T14:54:22.868Z - verbose: [Package] program@1.0.3 enable
+2023-05-03T14:54:22.873Z - verbose: [Package] tester@1.0.0 enable
+2023-05-03T14:54:22.874Z - verbose: [Package] information@1.0.0 enable
+2023-05-03T14:54:22.880Z - verbose: [Package] preferences@1.0.0 enable
+2023-05-03T14:54:25.056Z - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine
+2023-05-03T14:54:25.467Z - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,light-probe,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,websocket,webview)
+2023-05-03T14:54:25.475Z - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native
+2023-05-03T14:54:25.477Z - verbose: [Package] engine@1.0.7 enable
+2023-05-03T14:54:26.514Z - verbose: [Package] programming@1.0.0 enable
+2023-05-03T14:54:26.519Z - verbose: [Package] device@1.0.1 enable
+2023-05-03T14:54:26.525Z - verbose: [Package] ui-kit@1.0.1 enable
+2023-05-03T14:54:26.633Z - verbose: [Package] asset-db@1.0.0 enable
+2023-05-03T14:54:26.675Z - verbose: [Package] scene@1.0.0 enable
+2023-05-03T14:54:26.810Z - verbose: [Package] server@1.0.0 enable
+2023-05-03T14:54:26.841Z - verbose: [Package] utils@1.0.0 enable
+2023-05-03T14:54:32.090Z - verbose: [Package] preview@1.0.1 enable
+2023-05-03T14:54:32.120Z - verbose: [Package] animator@1.0.0 enable
+2023-05-03T14:54:32.265Z - verbose: [Build-plugin] register pkg scene: 1ms
+2023-05-03T14:54:32.265Z - verbose: Builder PluginManager init: 1ms
+2023-05-03T14:54:32.269Z - verbose: [Package] builder@1.3.4 enable
+2023-05-03T14:54:32.298Z - verbose: [Package] shortcuts@1.0.1 enable
+2023-05-03T14:54:32.327Z - verbose: [Package] animation-graph@1.0.0 enable
+2023-05-03T14:54:32.352Z - verbose: [Package] about@1.0.0 enable
+2023-05-03T14:54:32.380Z - verbose: [Package] assets@1.0.0 enable
+2023-05-03T14:54:32.407Z - verbose: [Package] console@1.0.0 enable
+2023-05-03T14:54:32.709Z - verbose: [Package] crash-reporter@1.0.0 enable
+2023-05-03T14:54:32.956Z - verbose: [Package] extension@3.1.0 enable
+2023-05-03T14:54:32.983Z - verbose: [Package] hierarchy@1.0.0 enable
+2023-05-03T14:54:33.012Z - verbose: [Package] inspector@1.0.0 enable
+2023-05-03T14:54:33.039Z - verbose: [Package] light-probe@1.0.4 enable
+2023-05-03T14:54:33.070Z - verbose: [Package] lightmap@1.0.4 enable
+2023-05-03T14:54:33.097Z - verbose: [Package] node-library@1.0.1 enable
+2023-05-03T14:54:33.120Z - verbose: [Package] package-asset@1.0.1 enable
+2023-05-03T14:54:33.147Z - verbose: [Package] process@1.0.0 enable
+2023-05-03T14:54:33.173Z - verbose: [Package] reference-image@1.0.0 enable
+2023-05-03T14:54:33.788Z - verbose: [Package] cocos-service@3.0.6 enable
+2023-05-03T14:54:33.839Z - verbose: [Build-plugin] register pkg cocos-service: 47ms
+2023-05-03T14:54:33.844Z - verbose: [Package] reflection-probe@1.0.4 enable
+2023-05-03T14:54:33.868Z - verbose: [Package] engine-extends@1.0.0 enable
+2023-05-03T14:54:33.890Z - verbose: [Package] alipay-mini-game@1.0.1 enable
+2023-05-03T14:54:33.914Z - verbose: [Package] android@1.0.1 enable
+2023-05-03T14:54:33.973Z - verbose: [Package] bytedance-mini-game@1.0.2 enable
+2023-05-03T14:54:33.997Z - verbose: [Package] certificate@1.0.0 enable
+2023-05-03T14:54:34.020Z - verbose: [Package] channel-upload-tools@1.0.0 enable
+2023-05-03T14:54:34.043Z - verbose: [Package] fb-instant-games@1.0.0 enable
+2023-05-03T14:54:34.067Z - verbose: [Package] huawei-agc@1.0.0 enable
+2023-05-03T14:54:34.091Z - verbose: [Package] huawei-quick-game@1.0.1 enable
+2023-05-03T14:54:34.117Z - verbose: [Package] ios@1.0.0 enable
+2023-05-03T14:54:34.142Z - verbose: [Package] linux@1.0.0 enable
+2023-05-03T14:54:34.149Z - verbose: [Build-plugin] register pkg android: 235ms
+2023-05-03T14:54:34.165Z - verbose: [Package] mac@1.0.0 enable
+2023-05-03T14:54:34.169Z - verbose: asset-db is ready!
+2023-05-03T14:54:34.185Z - verbose: [Build-plugin] register pkg bytedance-mini-game: 212ms
+2023-05-03T14:54:34.236Z - verbose: [Package] native@1.0.2 enable
+2023-05-03T14:54:34.283Z - verbose: [Build-plugin] register pkg native: 47ms
+2023-05-03T14:54:34.285Z - verbose: [Package] ohos@1.0.0 enable
+2023-05-03T14:54:34.309Z - verbose: [Package] open-harmonyos@1.0.0 enable
+2023-05-03T14:54:34.331Z - verbose: [Package] oppo-mini-game@1.0.1 enable
+2023-05-03T14:54:34.343Z - verbose: [Build-plugin] register pkg fb-instant-games: 300ms
+2023-05-03T14:54:34.348Z - verbose: [Build-plugin] register pkg ios: 231ms
+2023-05-03T14:54:34.351Z - verbose: [Build-plugin] register pkg huawei-quick-game: 260ms
+2023-05-03T14:54:34.356Z - verbose: [Package] runtime-dev-tools@1.0.0 enable
+2023-05-03T14:54:34.375Z - verbose: [Build-plugin] register pkg huawei-agc: 308ms
+2023-05-03T14:54:34.377Z - verbose: [Package] taobao-creative-app@1.0.0 enable
+2023-05-03T14:54:34.400Z - verbose: [Build-plugin] register pkg mac: 235ms
+2023-05-03T14:54:34.402Z - verbose: [Package] vivo-mini-game@1.0.1 enable
+2023-05-03T14:54:34.444Z - verbose: [Package] web-desktop@1.0.1 enable
+2023-05-03T14:54:34.458Z - verbose: [Build-plugin] register pkg ohos: 173ms
+2023-05-03T14:54:34.473Z - verbose: [Package] web-mobile@1.0.1 enable
+2023-05-03T14:54:34.505Z - verbose: [Package] wechatgame@1.0.2 enable
+2023-05-03T14:54:34.514Z - verbose: [Build-plugin] register pkg oppo-mini-game: 183ms
+2023-05-03T14:54:34.529Z - verbose: [Package] windows@1.0.1 enable
+2023-05-03T14:54:34.554Z - verbose: [Package] xiaomi-quick-game@1.0.1 enable
+2023-05-03T14:54:34.775Z - verbose: [Package] im-plugin@3.0.10 enable
+2023-05-03T14:54:34.780Z - verbose: [Build-plugin] register pkg vivo-mini-game: 378ms
+2023-05-03T14:54:34.783Z - verbose: [Build-plugin] register pkg web-mobile: 309ms
+2023-05-03T14:54:34.785Z - verbose: [Build-plugin] register pkg taobao-creative-app: 407ms
+2023-05-03T14:54:34.787Z - verbose: [Build-plugin] register pkg web-desktop: 343ms
+2023-05-03T14:54:34.802Z - verbose: [Package] placeholder@1.0.0 enable
+2023-05-03T14:54:34.831Z - verbose: [Build-plugin] register pkg wechatgame: 326ms
+2023-05-03T14:54:34.836Z - verbose: [Build-plugin] register pkg windows: 307ms
+2023-05-03T14:54:34.915Z - verbose: [Build-plugin] register pkg xiaomi-quick-game: 361ms
+2023-05-03T14:54:39.233Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-05-03T14:54:39.241Z - info: [Scene] [PHYSICS]: using builtin.
+2023-05-03T14:54:39.363Z - log: [Scene] Cocos Creator v3.7.1
+2023-05-03T14:54:39.364Z - info: [Scene] Forward render pipeline initialized.
+2023-05-03T14:54:39.464Z - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+2023-05-03T15:19:05.026Z - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+2023-05-03T15:19:05.026Z - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+2023-05-03T15:22:30.491Z - warn: 为更好地打开脚本，请在 偏好设置 -> 外部程序 -> 默认脚本编辑器 里配置打开脚本的应用程序
+2023-05-03T15:26:40.620Z - log: 23:26:40 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+23:26:40 [DEBUG]: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+23:26:40 [DEBUG]: FRAME SCALE = 1.00
+23:26:40 [DEBUG]: Project Config:
+23:26:40 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release\
+23:26:40 [DEBUG]:     writable path: $(PROJDIR)\
+23:26:40 [DEBUG]:     script file: $(PROJDIR)\main.js
+23:26:40 [DEBUG]:     frame size: 667 x 375
+23:26:40 [DEBUG]:     frame scale: 1.00
+23:26:40 [DEBUG]:     show console: NO
+23:26:40 [DEBUG]:     write debug log: NO ()
+23:26:40 [DEBUG]:     listen: 
+23:26:40 [DEBUG]:     debugger: none
+23:26:40 [DEBUG]:     add searching path:
+23:26:40 [DEBUG]: 
+
+
+23:26:40 [DEBUG]: [WARNING]:not find lang
+23:26:40 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+23:26:40 [DEBUG]: EGL context bounded to thread 170277e28632b6db
+23:26:40 [INFO]: GLES3 device initialized.
+23:26:40 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : Intel(R) Iris(R) Xe Graphics) (SDK Build: 18.1@5086772)
+23:26:40 [INFO]: VENDOR: Imagination Technologies (Host: Intel)
+23:26:40 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 - Build 31.0.101.3358)
+23:26:40 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+23:26:40 [INFO]: FRAMEBUFFER_FETCH: NONE
+23:26:40 [INFO]: Device validator enabled.
+23:26:40 [DEBUG]: D/ Initializing V8, version: 9.1.269
+
+23:26:40 [DEBUG]: D/ libuv version: 1.41.0
+
+23:26:40 [DEBUG]: D/ Number of interfaces: 8
+23:26:40 [DEBUG]: D/ Debugger listening..., visit [
+23:26:40 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+23:26:40 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.3.21:5086/00010002-0003-4004-8005-000600070008
+23:26:40 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.121.1:5086/00010002-0003-4004-8005-000600070008
+23:26:40 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.27.1:5086/00010002-0003-4004-8005-000600070008
+23:26:40 [DEBUG]: D/   ] in chrome browser to debug!
+23:26:40 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerWidth
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerHeight
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.windowHandler
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.btoa
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.atob
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Blob
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.URL
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DOMParser
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.XMLHttpRequest
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.SocketIO
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.WebSocket
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchstart
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchmove
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchend
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchcancel
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientLeft
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientTop
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageYOffset
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageXOffset
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerWidth
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerHeight
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientWidth
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientHeight
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.parent
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.top
+23:26:40 [DEBUG]: D/ JS: [DE
+2023-05-03T15:26:41.428Z - log: BUG]: [web-adapter] override window.location
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.document
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.navigator
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.CanvasRenderingContext2D
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Element
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLElement
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLCanvasElement
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLImageElement
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLMediaElement
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLVideoElement
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLScriptElement
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.__canvas
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Image
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FileReader
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFace
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFaceSet
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.EventTarget
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Event
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.TouchEvent
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.MouseEvent
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.KeyboardEvent
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DeviceMotionEvent
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.fetch
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Headers
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Request
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Response
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.orientation
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.devicePixelRatio
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.screen
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.addEventListener
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.removeEventListener
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.dispatchEvent
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.getComputedStyle
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.resize
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.focus
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.scroll
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window._isInjected
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.localStorage
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.requestAnimationFrame
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.cancelAnimationFrame
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setTimeout
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearTimeout
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setInterval
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearInterval
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.alert
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.io
+23:26:40 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.gameTick
+23:26:40 [DEBUG]: In the constructor of HttpClient!
+23:26:40 [DEBUG]: iShow!
+23:26:40 [DEBUG]: EventBus[Engine] has no listener found!
+23:26:41 [DEBUG]: D/ JS: 'cc.RenderPipeline._name' hides inherited property 'cc.Object._name'. To make the current property override that implementation, add the `override: true` attribute please.
+23:26:41 [DEBUG]: D/ JS: Can not declare cc.RenderPipeline._name, it is already defined in the prototype of cc.RenderPipeline
+23:26:41 [DEBUG]: D/ JS: [WARN]: Failed to set shading scale, pipelineSceneData is inval
+2023-05-03T15:26:55.452Z - log: 23:26:55 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+23:26:55 [DEBUG]: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+23:26:55 [DEBUG]: FRAME SCALE = 1.00
+23:26:55 [DEBUG]: Project Config:
+23:26:55 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release\
+23:26:55 [DEBUG]:     writable path: $(PROJDIR)\
+23:26:55 [DEBUG]:     script file: $(PROJDIR)\main.js
+23:26:55 [DEBUG]:     frame size: 667 x 375
+23:26:55 [DEBUG]:     frame scale: 1.00
+23:26:55 [DEBUG]:     show console: NO
+23:26:55 [DEBUG]:     write debug log: NO ()
+23:26:55 [DEBUG]:     listen: 
+23:26:55 [DEBUG]:     debugger: none
+23:26:55 [DEBUG]:     add searching path:
+23:26:55 [DEBUG]: 
+
+
+23:26:55 [DEBUG]: [WARNING]:not find lang
+23:26:55 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+23:26:55 [DEBUG]: EGL context bounded to thread cd4b3f38e96840d8
+23:26:55 [INFO]: GLES3 device initialized.
+23:26:55 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : Intel(R) Iris(R) Xe Graphics) (SDK Build: 18.1@5086772)
+23:26:55 [INFO]: VENDOR: Imagination Technologies (Host: Intel)
+23:26:55 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 - Build 31.0.101.3358)
+23:26:55 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+23:26:55 [INFO]: FRAMEBUFFER_FETCH: NONE
+23:26:55 [INFO]: Device validator enabled.
+23:26:55 [DEBUG]: D/ Initializing V8, version: 9.1.269
+
+23:26:55 [DEBUG]: D/ libuv version: 1.41.0
+
+23:26:55 [DEBUG]: D/ Number of interfaces: 8
+23:26:55 [DEBUG]: D/ Debugger listening..., visit [
+23:26:55 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+23:26:55 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.3.21:5086/00010002-0003-4004-8005-000600070008
+23:26:55 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.121.1:5086/00010002-0003-4004-8005-000600070008
+23:26:55 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.27.1:5086/00010002-0003-4004-8005-000600070008
+23:26:55 [DEBUG]: D/   ] in chrome browser to debug!
+23:26:55 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerWidth
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerHeight
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.windowHandler
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.btoa
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.atob
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Blob
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.URL
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DOMParser
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.XMLHttpRequest
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.SocketIO
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.WebSocket
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchstart
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchmove
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchend
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchcancel
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientLeft
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientTop
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageYOffset
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageXOffset
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerWidth
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerHeight
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientWidth
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientHeight
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.parent
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.top
+23:26:55 [DEBUG]: D/ JS: [DE
+2023-05-03T15:26:55.872Z - log: BUG]: [web-adapter] override window.location
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.document
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.navigator
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.CanvasRenderingContext2D
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Element
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLElement
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLCanvasElement
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLImageElement
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLMediaElement
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLVideoElement
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLScriptElement
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.__canvas
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Image
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FileReader
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFace
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFaceSet
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.EventTarget
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Event
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.TouchEvent
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.MouseEvent
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.KeyboardEvent
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DeviceMotionEvent
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.fetch
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Headers
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Request
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Response
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.orientation
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.devicePixelRatio
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.screen
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.addEventListener
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.removeEventListener
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.dispatchEvent
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.getComputedStyle
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.resize
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.focus
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.scroll
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window._isInjected
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.localStorage
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.requestAnimationFrame
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.cancelAnimationFrame
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setTimeout
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearTimeout
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setInterval
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearInterval
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.alert
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.io
+23:26:55 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.gameTick
+23:26:55 [DEBUG]: In the constructor of HttpClient!
+23:26:55 [DEBUG]: iShow!
+23:26:55 [DEBUG]: EventBus[Engine] has no listener found!
+23:26:55 [DEBUG]: D/ JS: 'cc.RenderPipeline._name' hides inherited property 'cc.Object._name'. To make the current property override that implementation, add the `override: true` attribute please.
+23:26:55 [DEBUG]: D/ JS: Can not declare cc.RenderPipeline._name, it is already defined in the prototype of cc.RenderPipeline
+23:26:55 [DEBUG]: D/ JS: [WARN]: Failed to set shading scale, pipelineSceneData is inval
+2023-05-03T15:27:49.807Z - log: 23:27:49 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+23:27:49 [DEBUG]: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+23:27:49 [DEBUG]: FRAME SCALE = 1.00
+23:27:49 [DEBUG]: Project Config:
+23:27:49 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release\
+23:27:49 [DEBUG]:     writable path: $(PROJDIR)\
+23:27:49 [DEBUG]:     script file: $(PROJDIR)\main.js
+23:27:49 [DEBUG]:     frame size: 667 x 375
+23:27:49 [DEBUG]:     frame scale: 1.00
+23:27:49 [DEBUG]:     show console: NO
+23:27:49 [DEBUG]:     write debug log: NO ()
+23:27:49 [DEBUG]:     listen: 
+23:27:49 [DEBUG]:     debugger: none
+23:27:49 [DEBUG]:     add searching path:
+23:27:49 [DEBUG]: 
+
+
+23:27:49 [DEBUG]: [WARNING]:not find lang
+23:27:49 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+23:27:49 [DEBUG]: EGL context bounded to thread a8a474ef7ce2339e
+23:27:49 [INFO]: GLES3 device initialized.
+23:27:49 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : Intel(R) Iris(R) Xe Graphics) (SDK Build: 18.1@5086772)
+23:27:49 [INFO]: VENDOR: Imagination Technologies (Host: Intel)
+23:27:49 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 - Build 31.0.101.3358)
+23:27:49 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+23:27:49 [INFO]: FRAMEBUFFER_FETCH: NONE
+23:27:49 [INFO]: Device validator enabled.
+23:27:49 [DEBUG]: D/ Initializing V8, version: 9.1.269
+
+23:27:49 [DEBUG]: D/ libuv version: 1.41.0
+
+23:27:49 [DEBUG]: D/ Number of interfaces: 8
+23:27:49 [DEBUG]: D/ Debugger listening..., visit [
+23:27:49 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+23:27:49 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.3.21:5086/00010002-0003-4004-8005-000600070008
+23:27:49 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.121.1:5086/00010002-0003-4004-8005-000600070008
+23:27:49 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.27.1:5086/00010002-0003-4004-8005-000600070008
+23:27:49 [DEBUG]: D/   ] in chrome browser to debug!
+23:27:49 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerWidth
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerHeight
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.windowHandler
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.btoa
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.atob
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Blob
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.URL
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DOMParser
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.XMLHttpRequest
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.SocketIO
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.WebSocket
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchstart
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchmove
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchend
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchcancel
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientLeft
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientTop
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageYOffset
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageXOffset
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerWidth
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerHeight
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientWidth
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientHeight
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.parent
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.top
+23:27:49 [DEBUG]: D/ JS: [DE
+2023-05-03T15:27:50.230Z - log: BUG]: [web-adapter] override window.location
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.document
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.navigator
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.CanvasRenderingContext2D
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Element
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLElement
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLCanvasElement
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLImageElement
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLMediaElement
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLVideoElement
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLScriptElement
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.__canvas
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Image
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FileReader
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFace
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFaceSet
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.EventTarget
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Event
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.TouchEvent
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.MouseEvent
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.KeyboardEvent
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DeviceMotionEvent
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.fetch
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Headers
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Request
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Response
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.orientation
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.devicePixelRatio
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.screen
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.addEventListener
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.removeEventListener
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.dispatchEvent
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.getComputedStyle
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.resize
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.focus
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.scroll
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window._isInjected
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.localStorage
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.requestAnimationFrame
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.cancelAnimationFrame
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setTimeout
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearTimeout
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setInterval
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearInterval
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.alert
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.io
+23:27:49 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.gameTick
+23:27:49 [DEBUG]: In the constructor of HttpClient!
+23:27:49 [DEBUG]: iShow!
+23:27:49 [DEBUG]: EventBus[Engine] has no listener found!
+23:27:50 [DEBUG]: D/ JS: 'cc.RenderPipeline._name' hides inherited property 'cc.Object._name'. To make the current property override that implementation, add the `override: true` attribute please.
+23:27:50 [DEBUG]: D/ JS: Can not declare cc.RenderPipeline._name, it is already defined in the prototype of cc.RenderPipeline
+23:27:50 [DEBUG]: D/ JS: [WARN]: Failed to set shading scale, pipelineSceneData is inval
+2023-05-03T15:27:57.291Z - log: id.
+23:27:50 [DEBUG]: D/ JS: [WARN]: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
+23:27:50 [DEBUG]: D/ JS: [INFO]: [PHYSICS2D]: register box2d.
+23:27:50 [DEBUG]: EGL context bounded to thread 2a9b12cbe11bde88
+23:27:50 [INFO]: Device thread detached.
+23:27:50 [DEBUG]: D/ JS: Cocos Creator v3.7.1
+23:27:50 [DEBUG]: D/ JS: [object Object]
+23:27:57 [DEBUG]: HttpClient::destroyInstance begin
+23:27:57 [DEBUG]: HttpClient destructor
+23:27:57 [DEBUG]: HttpClient::destroyInstance() finished!
+23:27:57 [DEBUG]: D/ ScriptEngine::cleanup begin ...
+
+23:27:57 [DEBUG]: D/ GC begin ..., (js->native map) size: 321
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41747A10 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41748750 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B417476C0 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41749140 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41749490 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B417480B0 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41749E80 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41748400 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B4174A1D0 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41746980 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41746CD0 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41747020 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41A48520 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41A47B30 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41A47E80 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41A48F10 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41A477E0 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41A49260 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41A481D0 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41749B30 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41747370 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B3D47E8F0 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B413204E0 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41B6B0F0 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B412F8E60 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B418ACB30 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41733A70 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41BBE230 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41901440 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B419848F0 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41984C40 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41732DF0 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41733140 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41B99F80 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B4190A0E0 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B4190A430 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B4190AAD0 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B4190A780 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41747D60 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B417497E0 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41748DF0 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B41748AA0 ... 
+
+23:27:57 [DEBUG]: D/ XMLHttpRequest_finalize, 0000024B4174A520 ... 
+
+23:27:57 [DEBUG]: D/ GC end ..., (js->native map) size: 204
+
+23:27:57 [DEBUG]: D/ GC begin ..., (js->native map) size: 204
+
+23:27:57 [DEBUG]: D/ GC end ..., (js->native map) size: 204
+
+23:27:57 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
+
+23:27:57 [DEBUG]: D/ GC end ..., (js->native map) size: 0
+
+23:27:57 [DEBUG]: D/ ScriptEngine::cleanup end ...
+
+23:27:57 [DEBUG]: EGL conte
+2023-05-03T15:27:57.356Z - log: (Info) Hardware profile: None
+(Info) PVRVFrame version 10.8
+
+2023-05-03T15:27:57.362Z - log: xt bounded to thread 2a9b12cbe11bde88
+
+2023-05-03T15:28:15.554Z - log: 23:28:15 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+23:28:15 [DEBUG]: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+23:28:15 [DEBUG]: FRAME SCALE = 1.00
+23:28:15 [DEBUG]: Project Config:
+23:28:15 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release\
+23:28:15 [DEBUG]:     writable path: $(PROJDIR)\
+23:28:15 [DEBUG]:     script file: $(PROJDIR)\main.js
+23:28:15 [DEBUG]:     frame size: 667 x 375
+23:28:15 [DEBUG]:     frame scale: 1.00
+23:28:15 [DEBUG]:     show console: NO
+23:28:15 [DEBUG]:     write debug log: NO ()
+23:28:15 [DEBUG]:     listen: 
+23:28:15 [DEBUG]:     debugger: none
+23:28:15 [DEBUG]:     add searching path:
+23:28:15 [DEBUG]: 
+
+
+23:28:15 [DEBUG]: [WARNING]:not find lang
+23:28:15 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+23:28:15 [DEBUG]: EGL context bounded to thread a1a53754872f47a3
+23:28:15 [INFO]: GLES3 device initialized.
+23:28:15 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : Intel(R) Iris(R) Xe Graphics) (SDK Build: 18.1@5086772)
+23:28:15 [INFO]: VENDOR: Imagination Technologies (Host: Intel)
+23:28:15 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 - Build 31.0.101.3358)
+23:28:15 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+23:28:15 [INFO]: FRAMEBUFFER_FETCH: NONE
+23:28:15 [INFO]: Device validator enabled.
+23:28:15 [DEBUG]: D/ Initializing V8, version: 9.1.269
+
+23:28:15 [DEBUG]: D/ libuv version: 1.41.0
+
+23:28:15 [DEBUG]: D/ Number of interfaces: 8
+23:28:15 [DEBUG]: D/ Debugger listening..., visit [
+23:28:15 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+23:28:15 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.3.21:5086/00010002-0003-4004-8005-000600070008
+23:28:15 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.121.1:5086/00010002-0003-4004-8005-000600070008
+23:28:15 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.27.1:5086/00010002-0003-4004-8005-000600070008
+23:28:15 [DEBUG]: D/   ] in chrome browser to debug!
+23:28:15 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerWidth
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerHeight
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.windowHandler
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.btoa
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.atob
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Blob
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.URL
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DOMParser
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.XMLHttpRequest
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.SocketIO
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.WebSocket
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchstart
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchmove
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchend
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchcancel
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientLeft
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientTop
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageYOffset
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageXOffset
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerWidth
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerHeight
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientWidth
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientHeight
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.parent
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.top
+23:28:15 [DEBUG]: D/ JS: [DE
+2023-05-03T15:28:15.989Z - log: BUG]: [web-adapter] override window.location
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.document
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.navigator
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.CanvasRenderingContext2D
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Element
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLElement
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLCanvasElement
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLImageElement
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLMediaElement
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLVideoElement
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLScriptElement
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.__canvas
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Image
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FileReader
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFace
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFaceSet
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.EventTarget
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Event
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.TouchEvent
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.MouseEvent
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.KeyboardEvent
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DeviceMotionEvent
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.fetch
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Headers
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Request
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Response
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.orientation
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.devicePixelRatio
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.screen
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.addEventListener
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.removeEventListener
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.dispatchEvent
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.getComputedStyle
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.resize
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.focus
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.scroll
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window._isInjected
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.localStorage
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.requestAnimationFrame
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.cancelAnimationFrame
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setTimeout
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearTimeout
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setInterval
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearInterval
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.alert
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.io
+23:28:15 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.gameTick
+23:28:15 [DEBUG]: In the constructor of HttpClient!
+23:28:15 [DEBUG]: iShow!
+23:28:15 [DEBUG]: EventBus[Engine] has no listener found!
+23:28:15 [DEBUG]: D/ JS: 'cc.RenderPipeline._name' hides inherited property 'cc.Object._name'. To make the current property override that implementation, add the `override: true` attribute please.
+23:28:15 [DEBUG]: D/ JS: Can not declare cc.RenderPipeline._name, it is already defined in the prototype of cc.RenderPipeline
+23:28:15 [DEBUG]: D/ JS: [WARN]: Failed to set shading scale, pipelineSceneData is inval
+2023-05-03T15:28:22.690Z - log: (Info) Hardware profile: None
+(Info) PVRVFrame version 10.8
+
+2023-05-03T15:28:22.699Z - log: id.
+23:28:15 [DEBUG]: D/ JS: [WARN]: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
+23:28:15 [DEBUG]: D/ JS: [INFO]: [PHYSICS2D]: register box2d.
+23:28:15 [DEBUG]: EGL context bounded to thread 6d5f25d856ea78f3
+23:28:15 [INFO]: Device thread detached.
+23:28:16 [DEBUG]: D/ JS: Cocos Creator v3.7.1
+23:28:22 [DEBUG]: HttpClient::destroyInstance begin
+23:28:22 [DEBUG]: HttpClient destructor
+23:28:22 [DEBUG]: HttpClient::destroyInstance() finished!
+23:28:22 [DEBUG]: D/ ScriptEngine::cleanup begin ...
+
+23:28:22 [DEBUG]: D/ GC begin ..., (js->native map) size: 305
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B911F03300 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B911F01BD0 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B911F025C0 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B911F02910 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B912439EE0 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B912439840 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B91243A580 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B91243C350 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B91243A230 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B91243A8D0 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B912438B00 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B91243AF70 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B91243AC20 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B91243B610 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B91243B2C0 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B911F02270 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B911F03650 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B911E700B0 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B911E48EA0 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B9120F6740 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B9126EDC70 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B91210EBD0 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B91212EBF0 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B912082B60 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B91212B3D0 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B911E60310 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B911E57290 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B90E03AD50 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B9120CAC30 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B911E338F0 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B912030CF0 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B9120770D0 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B9120921A0 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B9120308E0 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B912077420 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B911EF8960 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B911F02C60 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B911F01F20 ... 
+
+23:28:22 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B911F02FB0 ... 
+
+23:28:22 [DEBUG]: D/ GC end ..., (js->native map) size: 194
+
+23:28:22 [DEBUG]: D/ GC begin ..., (js->native map) size: 194
+
+23:28:22 [DEBUG]: D/ GC end ..., (js->native map) size: 194
+
+23:28:22 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
+
+23:28:22 [DEBUG]: D/ GC end ..., (js->native map) size: 0
+
+23:28:22 [DEBUG]: D/ ScriptEngine::cleanup end ...
+
+23:28:22 [DEBUG]: EGL context bounded to thread 6d5f25d856ea78f3
+
+2023-05-03T15:28:42.253Z - log: 23:28:42 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+23:28:42 [DEBUG]: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+23:28:42 [DEBUG]: FRAME SCALE = 1.00
+23:28:42 [DEBUG]: Project Config:
+23:28:42 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release\
+23:28:42 [DEBUG]:     writable path: $(PROJDIR)\
+23:28:42 [DEBUG]:     script file: $(PROJDIR)\main.js
+23:28:42 [DEBUG]:     frame size: 667 x 375
+23:28:42 [DEBUG]:     frame scale: 1.00
+23:28:42 [DEBUG]:     show console: NO
+23:28:42 [DEBUG]:     write debug log: NO ()
+23:28:42 [DEBUG]:     listen: 
+23:28:42 [DEBUG]:     debugger: none
+23:28:42 [DEBUG]:     add searching path:
+23:28:42 [DEBUG]: 
+
+
+23:28:42 [DEBUG]: [WARNING]:not find lang
+23:28:42 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+23:28:42 [DEBUG]: EGL context bounded to thread 940165022a621fac
+23:28:42 [INFO]: GLES3 device initialized.
+23:28:42 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : Intel(R) Iris(R) Xe Graphics) (SDK Build: 18.1@5086772)
+23:28:42 [INFO]: VENDOR: Imagination Technologies (Host: Intel)
+23:28:42 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 - Build 31.0.101.3358)
+23:28:42 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+23:28:42 [INFO]: FRAMEBUFFER_FETCH: NONE
+23:28:42 [INFO]: Device validator enabled.
+23:28:42 [DEBUG]: D/ Initializing V8, version: 9.1.269
+
+23:28:42 [DEBUG]: D/ libuv version: 1.41.0
+
+23:28:42 [DEBUG]: D/ Number of interfaces: 8
+23:28:42 [DEBUG]: D/ Debugger listening..., visit [
+23:28:42 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+23:28:42 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.3.21:5086/00010002-0003-4004-8005-000600070008
+23:28:42 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.121.1:5086/00010002-0003-4004-8005-000600070008
+23:28:42 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.27.1:5086/00010002-0003-4004-8005-000600070008
+23:28:42 [DEBUG]: D/   ] in chrome browser to debug!
+23:28:42 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerWidth
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerHeight
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.windowHandler
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.btoa
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.atob
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Blob
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.URL
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DOMParser
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.XMLHttpRequest
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.SocketIO
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.WebSocket
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchstart
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchmove
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchend
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchcancel
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientLeft
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientTop
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageYOffset
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageXOffset
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerWidth
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerHeight
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientWidth
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientHeight
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.parent
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.top
+23:28:42 [DEBUG]: D/ JS: [DE
+2023-05-03T15:28:42.682Z - log: BUG]: [web-adapter] override window.location
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.document
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.navigator
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.CanvasRenderingContext2D
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Element
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLElement
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLCanvasElement
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLImageElement
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLMediaElement
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLVideoElement
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLScriptElement
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.__canvas
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Image
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FileReader
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFace
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFaceSet
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.EventTarget
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Event
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.TouchEvent
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.MouseEvent
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.KeyboardEvent
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DeviceMotionEvent
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.fetch
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Headers
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Request
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Response
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.orientation
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.devicePixelRatio
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.screen
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.addEventListener
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.removeEventListener
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.dispatchEvent
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.getComputedStyle
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.resize
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.focus
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.scroll
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window._isInjected
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.localStorage
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.requestAnimationFrame
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.cancelAnimationFrame
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setTimeout
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearTimeout
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setInterval
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearInterval
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.alert
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.io
+23:28:42 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.gameTick
+23:28:42 [DEBUG]: In the constructor of HttpClient!
+23:28:42 [DEBUG]: iShow!
+23:28:42 [DEBUG]: EventBus[Engine] has no listener found!
+23:28:42 [DEBUG]: D/ JS: 'cc.RenderPipeline._name' hides inherited property 'cc.Object._name'. To make the current property override that implementation, add the `override: true` attribute please.
+23:28:42 [DEBUG]: D/ JS: Can not declare cc.RenderPipeline._name, it is already defined in the prototype of cc.RenderPipeline
+23:28:42 [DEBUG]: D/ JS: [WARN]: Failed to set shading scale, pipelineSceneData is inval
+2023-05-03T15:28:48.320Z - log: (Info) Hardware profile: None
+(Info) PVRVFrame version 10.8
+
+2023-05-03T15:28:48.332Z - log: id.
+23:28:42 [DEBUG]: D/ JS: [WARN]: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
+23:28:42 [DEBUG]: D/ JS: [INFO]: [PHYSICS2D]: register box2d.
+23:28:42 [DEBUG]: EGL context bounded to thread 8b5e9897023cb855
+23:28:42 [INFO]: Device thread detached.
+23:28:43 [DEBUG]: D/ JS: Cocos Creator v3.7.1
+23:28:43 [INFO]: Shader 'builtin-sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA0|USE_TEXTURE1|IS_GRAY0' compilation succeeded.
+23:28:43 [INFO]: Shader 'util/profiler|profiler-vs:vert|profiler-fs:frag' compilation succeeded.
+23:28:48 [DEBUG]: HttpClient::destroyInstance begin
+23:28:48 [DEBUG]: HttpClient destructor
+23:28:48 [DEBUG]: HttpClient::destroyInstance() finished!
+23:28:48 [DEBUG]: D/ ScriptEngine::cleanup begin ...
+
+23:28:48 [DEBUG]: D/ GC begin ..., (js->native map) size: 309
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E35D6CF0 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E35D8770 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E35D5C60 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E35D55C0 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E35D5910 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E35D5FB0 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E35D7D80 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E35D8AC0 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E35D6300 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E35D80D0 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E35D6650 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E35D7040 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E35D7390 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E35D5270 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E35D8420 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E339BF00 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E35D69A0 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1DF3BEC10 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E311F680 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E3892CC0 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1DF34CD70 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E3125F30 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1DF34D510 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E31F94B0 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E313AF70 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E371A520 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E3128720 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E3596C10 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E3757A30 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E37800A0 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E3499C40 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E339D630 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E339C5A0 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E339CF90 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E339C250 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E339C8F0 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E339D2E0 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E339BBB0 ... 
+
+23:28:48 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A1E339CC40 ... 
+
+23:28:48 [DEBUG]: D/ GC end ..., (js->native map) size: 197
+
+23:28:48 [DEBUG]: D/ GC begin ..., (js->native map) size: 197
+
+23:28:48 [DEBUG]: D/ GC end ..., (js->native map) size: 197
+
+23:28:48 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
+
+23:28:48 [DEBUG]: D/ GC end ..., (js->native map) size: 0
+
+23:28:48 [DEBUG]: D/ ScriptEngine::cleanup end ...
+
+23:28:48 [DEBUG]: EGL context bounded to thread 8b5e9897023cb855
+
+2023-05-03T15:29:03.982Z - log: 23:29:03 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+23:29:03 [DEBUG]: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+23:29:03 [DEBUG]: FRAME SCALE = 1.00
+23:29:03 [DEBUG]: Project Config:
+23:29:03 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release\
+23:29:03 [DEBUG]:     writable path: $(PROJDIR)\
+23:29:03 [DEBUG]:     script file: $(PROJDIR)\main.js
+23:29:03 [DEBUG]:     frame size: 667 x 375
+23:29:03 [DEBUG]:     frame scale: 1.00
+23:29:03 [DEBUG]:     show console: NO
+23:29:03 [DEBUG]:     write debug log: NO ()
+23:29:03 [DEBUG]:     listen: 
+23:29:03 [DEBUG]:     debugger: none
+23:29:03 [DEBUG]:     add searching path:
+23:29:03 [DEBUG]: 
+
+
+23:29:03 [DEBUG]: [WARNING]:not find lang
+23:29:03 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+23:29:03 [DEBUG]: EGL context bounded to thread 8f0dbc44af3f8db4
+23:29:03 [INFO]: GLES3 device initialized.
+23:29:03 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : Intel(R) Iris(R) Xe Graphics) (SDK Build: 18.1@5086772)
+23:29:03 [INFO]: VENDOR: Imagination Technologies (Host: Intel)
+23:29:03 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 - Build 31.0.101.3358)
+23:29:03 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+23:29:03 [INFO]: FRAMEBUFFER_FETCH: NONE
+23:29:03 [INFO]: Device validator enabled.
+23:29:03 [DEBUG]: D/ Initializing V8, version: 9.1.269
+
+23:29:03 [DEBUG]: D/ libuv version: 1.41.0
+
+23:29:03 [DEBUG]: D/ Number of interfaces: 8
+23:29:03 [DEBUG]: D/ Debugger listening..., visit [
+23:29:03 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+23:29:03 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.3.21:5086/00010002-0003-4004-8005-000600070008
+23:29:03 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.121.1:5086/00010002-0003-4004-8005-000600070008
+23:29:03 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.27.1:5086/00010002-0003-4004-8005-000600070008
+23:29:03 [DEBUG]: D/   ] in chrome browser to debug!
+23:29:03 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerWidth
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerHeight
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.windowHandler
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.btoa
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.atob
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Blob
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.URL
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DOMParser
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.XMLHttpRequest
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.SocketIO
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.WebSocket
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchstart
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchmove
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchend
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchcancel
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientLeft
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientTop
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageYOffset
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageXOffset
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerWidth
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerHeight
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientWidth
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientHeight
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.parent
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.top
+23:29:03 [DEBUG]: D/ JS: [DE
+2023-05-03T15:29:04.436Z - log: BUG]: [web-adapter] override window.location
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.document
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.navigator
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.CanvasRenderingContext2D
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Element
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLElement
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLCanvasElement
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLImageElement
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLMediaElement
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLVideoElement
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLScriptElement
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.__canvas
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Image
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FileReader
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFace
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFaceSet
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.EventTarget
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Event
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.TouchEvent
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.MouseEvent
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.KeyboardEvent
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DeviceMotionEvent
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.fetch
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Headers
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Request
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Response
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.orientation
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.devicePixelRatio
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.screen
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.addEventListener
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.removeEventListener
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.dispatchEvent
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.getComputedStyle
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.resize
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.focus
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.scroll
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window._isInjected
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.localStorage
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.requestAnimationFrame
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.cancelAnimationFrame
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setTimeout
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearTimeout
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setInterval
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearInterval
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.alert
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.io
+23:29:03 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.gameTick
+23:29:04 [DEBUG]: In the constructor of HttpClient!
+23:29:04 [DEBUG]: iShow!
+23:29:04 [DEBUG]: EventBus[Engine] has no listener found!
+23:29:04 [DEBUG]: D/ JS: 'cc.RenderPipeline._name' hides inherited property 'cc.Object._name'. To make the current property override that implementation, add the `override: true` attribute please.
+23:29:04 [DEBUG]: D/ JS: Can not declare cc.RenderPipeline._name, it is already defined in the prototype of cc.RenderPipeline
+23:29:04 [DEBUG]: D/ JS: [WARN]: Failed to set shading scale, pipelineSceneData is inval
+2023-05-03T15:29:08.866Z - log: (Info) Hardware profile: None
+(Info) PVRVFrame version 10.8
+
+2023-05-03T15:29:08.875Z - log: id.
+23:29:04 [DEBUG]: D/ JS: [WARN]: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
+23:29:04 [DEBUG]: D/ JS: [INFO]: [PHYSICS2D]: register box2d.
+23:29:04 [DEBUG]: EGL context bounded to thread 495c2bef46ea4245
+23:29:04 [INFO]: Device thread detached.
+23:29:04 [DEBUG]: D/ JS: Cocos Creator v3.7.1
+23:29:05 [INFO]: Shader 'builtin-sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA0|USE_TEXTURE1|IS_GRAY0' compilation succeeded.
+23:29:05 [INFO]: Shader 'util/profiler|profiler-vs:vert|profiler-fs:frag' compilation succeeded.
+23:29:08 [DEBUG]: HttpClient::destroyInstance begin
+23:29:08 [DEBUG]: HttpClient destructor
+23:29:08 [DEBUG]: HttpClient::destroyInstance() finished!
+23:29:08 [DEBUG]: D/ ScriptEngine::cleanup begin ...
+
+23:29:08 [DEBUG]: D/ GC begin ..., (js->native map) size: 309
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09921B20 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09924CD0 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09922F00 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A099242E0 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09925370 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09925020 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09922BB0 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09923C40 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09921E70 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A099238F0 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A099221C0 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A099235A0 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09923250 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A099256C0 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09922510 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09922860 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09923F90 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A0586C0A0 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A096DD450 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09F5B500 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A0985CD70 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09E1D400 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A096DAA10 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09CDC2B0 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A096AD9F0 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09CD8A90 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A057CA900 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A0586E450 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09821FB0 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A0991A7A0 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09919710 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A099193C0 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09919A60 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A0991A450 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09919DB0 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A0991AAF0 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A0991AE40 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A0991A100 ... 
+
+23:29:08 [DEBUG]: D/ XMLHttpRequest_finalize, 0000014A09924980 ... 
+
+23:29:08 [DEBUG]: D/ GC end ..., (js->native map) size: 197
+
+23:29:08 [DEBUG]: D/ GC begin ..., (js->native map) size: 197
+
+23:29:08 [DEBUG]: D/ GC end ..., (js->native map) size: 197
+
+23:29:08 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
+
+23:29:08 [DEBUG]: D/ GC end ..., (js->native map) size: 0
+
+23:29:08 [DEBUG]: D/ ScriptEngine::cleanup end ...
+
+23:29:08 [DEBUG]: EGL context bounded to thread 495c2bef46ea4245
+
+2023-05-03T15:30:05.445Z - log: 23:30:05 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+23:30:05 [DEBUG]: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+23:30:05 [DEBUG]: FRAME SCALE = 1.00
+23:30:05 [DEBUG]: Project Config:
+23:30:05 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release\
+23:30:05 [DEBUG]:     writable path: $(PROJDIR)\
+23:30:05 [DEBUG]:     script file: $(PROJDIR)\main.js
+23:30:05 [DEBUG]:     frame size: 667 x 375
+23:30:05 [DEBUG]:     frame scale: 1.00
+23:30:05 [DEBUG]:     show console: NO
+23:30:05 [DEBUG]:     write debug log: NO ()
+23:30:05 [DEBUG]:     listen: 
+23:30:05 [DEBUG]:     debugger: none
+23:30:05 [DEBUG]:     add searching path:
+23:30:05 [DEBUG]: 
+
+
+23:30:05 [DEBUG]: [WARNING]:not find lang
+23:30:05 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+23:30:05 [DEBUG]: EGL context bounded to thread 3fca72cc7e1bb3e8
+23:30:05 [INFO]: GLES3 device initialized.
+23:30:05 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : Intel(R) Iris(R) Xe Graphics) (SDK Build: 18.1@5086772)
+23:30:05 [INFO]: VENDOR: Imagination Technologies (Host: Intel)
+23:30:05 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 - Build 31.0.101.3358)
+23:30:05 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+23:30:05 [INFO]: FRAMEBUFFER_FETCH: NONE
+23:30:05 [INFO]: Device validator enabled.
+23:30:05 [DEBUG]: D/ Initializing V8, version: 9.1.269
+
+23:30:05 [DEBUG]: D/ libuv version: 1.41.0
+
+23:30:05 [DEBUG]: D/ Number of interfaces: 8
+23:30:05 [DEBUG]: D/ Debugger listening..., visit [
+23:30:05 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+23:30:05 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.3.21:5086/00010002-0003-4004-8005-000600070008
+23:30:05 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.121.1:5086/00010002-0003-4004-8005-000600070008
+23:30:05 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.27.1:5086/00010002-0003-4004-8005-000600070008
+23:30:05 [DEBUG]: D/   ] in chrome browser to debug!
+23:30:05 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerWidth
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerHeight
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.windowHandler
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.btoa
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.atob
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Blob
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.URL
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DOMParser
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.XMLHttpRequest
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.SocketIO
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.WebSocket
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchstart
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchmove
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchend
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchcancel
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientLeft
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientTop
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageYOffset
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageXOffset
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerWidth
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerHeight
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientWidth
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientHeight
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.parent
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.top
+23:30:05 [DEBUG]: D/ JS: [DE
+2023-05-03T15:30:05.931Z - log: BUG]: [web-adapter] override window.location
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.document
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.navigator
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.CanvasRenderingContext2D
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Element
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLElement
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLCanvasElement
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLImageElement
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLMediaElement
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLVideoElement
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLScriptElement
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.__canvas
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Image
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FileReader
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFace
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFaceSet
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.EventTarget
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Event
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.TouchEvent
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.MouseEvent
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.KeyboardEvent
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DeviceMotionEvent
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.fetch
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Headers
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Request
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Response
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.orientation
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.devicePixelRatio
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.screen
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.addEventListener
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.removeEventListener
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.dispatchEvent
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.getComputedStyle
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.resize
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.focus
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.scroll
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window._isInjected
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.localStorage
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.requestAnimationFrame
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.cancelAnimationFrame
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setTimeout
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearTimeout
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setInterval
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearInterval
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.alert
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.io
+23:30:05 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.gameTick
+23:30:05 [DEBUG]: In the constructor of HttpClient!
+23:30:05 [DEBUG]: iShow!
+23:30:05 [DEBUG]: EventBus[Engine] has no listener found!
+23:30:05 [DEBUG]: D/ JS: 'cc.RenderPipeline._name' hides inherited property 'cc.Object._name'. To make the current property override that implementation, add the `override: true` attribute please.
+23:30:05 [DEBUG]: D/ JS: Can not declare cc.RenderPipeline._name, it is already defined in the prototype of cc.RenderPipeline
+23:30:05 [DEBUG]: D/ JS: [WARN]: Failed to set shading scale, pipelineSceneData is inval
+2023-05-03T15:30:10.443Z - log: (Info) Hardware profile: None
+(Info) PVRVFrame version 10.8
+
+2023-05-03T15:30:10.452Z - log: id.
+23:30:05 [DEBUG]: D/ JS: [WARN]: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
+23:30:05 [DEBUG]: D/ JS: [INFO]: [PHYSICS2D]: register box2d.
+23:30:05 [DEBUG]: EGL context bounded to thread 24e9cba8f064d856
+23:30:05 [INFO]: Device thread detached.
+23:30:06 [DEBUG]: D/ JS: Cocos Creator v3.7.1
+23:30:06 [INFO]: Shader 'builtin-sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA0|USE_TEXTURE1|IS_GRAY0' compilation succeeded.
+23:30:06 [INFO]: Shader 'util/profiler|profiler-vs:vert|profiler-fs:frag' compilation succeeded.
+23:30:10 [DEBUG]: HttpClient::destroyInstance begin
+23:30:10 [DEBUG]: HttpClient destructor
+23:30:10 [DEBUG]: HttpClient::destroyInstance() finished!
+23:30:10 [DEBUG]: D/ ScriptEngine::cleanup begin ...
+
+23:30:10 [DEBUG]: D/ GC begin ..., (js->native map) size: 309
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E5A629E0 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E599E350 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E599E9F0 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E59A1500 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E59A07C0 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E59A0B10 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E599ED40 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E599F090 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E599F3E0 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E599DCB0 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E599F730 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E599FA80 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E599FDD0 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E59A0120 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E59A0470 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E5A62D30 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E5A61CA0 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E547D480 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E5A36C70 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E544AD80 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E167DC40 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E56E5C80 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E57207C0 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E5455B90 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E5D65D00 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E54745E0 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E5A16240 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E55ED870 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E55EB800 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E55ECB70 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E5A5E090 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E5A5E7E0 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E167D790 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E5A62690 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E5A63080 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E5A633D0 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E5A61FF0 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E5A62340 ... 
+
+23:30:10 [DEBUG]: D/ XMLHttpRequest_finalize, 00000207E5A63720 ... 
+
+23:30:10 [DEBUG]: D/ GC end ..., (js->native map) size: 197
+
+23:30:10 [DEBUG]: D/ GC begin ..., (js->native map) size: 197
+
+23:30:10 [DEBUG]: D/ GC end ..., (js->native map) size: 197
+
+23:30:10 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
+
+23:30:10 [DEBUG]: D/ GC end ..., (js->native map) size: 0
+
+23:30:10 [DEBUG]: D/ ScriptEngine::cleanup end ...
+
+23:30:10 [DEBUG]: EGL context bounded to thread 24e9cba8f064d856
+
+2023-05-03T15:30:35.884Z - log: 23:30:35 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+23:30:35 [DEBUG]: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+23:30:35 [DEBUG]: FRAME SCALE = 1.00
+23:30:35 [DEBUG]: Project Config:
+23:30:35 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release\
+23:30:35 [DEBUG]:     writable path: $(PROJDIR)\
+23:30:35 [DEBUG]:     script file: $(PROJDIR)\main.js
+23:30:35 [DEBUG]:     frame size: 667 x 375
+23:30:35 [DEBUG]:     frame scale: 1.00
+23:30:35 [DEBUG]:     show console: NO
+23:30:35 [DEBUG]:     write debug log: NO ()
+23:30:35 [DEBUG]:     listen: 
+23:30:35 [DEBUG]:     debugger: none
+23:30:35 [DEBUG]:     add searching path:
+23:30:35 [DEBUG]: 
+
+
+23:30:35 [DEBUG]: [WARNING]:not find lang
+23:30:35 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+23:30:35 [DEBUG]: EGL context bounded to thread 962f899e697534e5
+23:30:35 [INFO]: GLES3 device initialized.
+23:30:35 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : Intel(R) Iris(R) Xe Graphics) (SDK Build: 18.1@5086772)
+23:30:35 [INFO]: VENDOR: Imagination Technologies (Host: Intel)
+23:30:35 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 - Build 31.0.101.3358)
+23:30:35 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+23:30:35 [INFO]: FRAMEBUFFER_FETCH: NONE
+23:30:35 [INFO]: Device validator enabled.
+23:30:35 [DEBUG]: D/ Initializing V8, version: 9.1.269
+
+23:30:35 [DEBUG]: D/ libuv version: 1.41.0
+
+23:30:35 [DEBUG]: D/ Number of interfaces: 8
+23:30:35 [DEBUG]: D/ Debugger listening..., visit [
+23:30:35 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+23:30:35 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.3.21:5086/00010002-0003-4004-8005-000600070008
+23:30:35 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.121.1:5086/00010002-0003-4004-8005-000600070008
+23:30:35 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.27.1:5086/00010002-0003-4004-8005-000600070008
+23:30:35 [DEBUG]: D/   ] in chrome browser to debug!
+23:30:35 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerWidth
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerHeight
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.windowHandler
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.btoa
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.atob
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Blob
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.URL
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DOMParser
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.XMLHttpRequest
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.SocketIO
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.WebSocket
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchstart
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchmove
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchend
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchcancel
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientLeft
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientTop
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageYOffset
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageXOffset
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerWidth
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerHeight
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientWidth
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientHeight
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.parent
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.top
+23:30:35 [DEBUG]: D/ JS: [DE
+2023-05-03T15:30:36.346Z - log: BUG]: [web-adapter] override window.location
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.document
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.navigator
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.CanvasRenderingContext2D
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Element
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLElement
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLCanvasElement
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLImageElement
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLMediaElement
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLVideoElement
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLScriptElement
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.__canvas
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Image
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FileReader
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFace
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFaceSet
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.EventTarget
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Event
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.TouchEvent
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.MouseEvent
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.KeyboardEvent
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DeviceMotionEvent
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.fetch
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Headers
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Request
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Response
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.orientation
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.devicePixelRatio
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.screen
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.addEventListener
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.removeEventListener
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.dispatchEvent
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.getComputedStyle
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.resize
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.focus
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.scroll
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window._isInjected
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.localStorage
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.requestAnimationFrame
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.cancelAnimationFrame
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setTimeout
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearTimeout
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setInterval
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearInterval
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.alert
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.io
+23:30:35 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.gameTick
+23:30:35 [DEBUG]: In the constructor of HttpClient!
+23:30:35 [DEBUG]: iShow!
+23:30:35 [DEBUG]: EventBus[Engine] has no listener found!
+23:30:36 [DEBUG]: D/ JS: 'cc.RenderPipeline._name' hides inherited property 'cc.Object._name'. To make the current property override that implementation, add the `override: true` attribute please.
+23:30:36 [DEBUG]: D/ JS: Can not declare cc.RenderPipeline._name, it is already defined in the prototype of cc.RenderPipeline
+23:30:36 [DEBUG]: D/ JS: [WARN]: Failed to set shading scale, pipelineSceneData is inval
+2023-05-03T15:30:41.193Z - log: (Info) Hardware profile: None
+(Info) PVRVFrame version 10.8
+
+2023-05-03T15:30:41.202Z - log: id.
+23:30:36 [DEBUG]: D/ JS: [WARN]: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
+23:30:36 [DEBUG]: D/ JS: [INFO]: [PHYSICS2D]: register box2d.
+23:30:36 [DEBUG]: EGL context bounded to thread ad204e7396ddd370
+23:30:36 [INFO]: Device thread detached.
+23:30:36 [DEBUG]: D/ JS: Cocos Creator v3.7.1
+23:30:37 [INFO]: Shader 'builtin-sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA0|USE_TEXTURE1|IS_GRAY0' compilation succeeded.
+23:30:37 [INFO]: Shader 'util/profiler|profiler-vs:vert|profiler-fs:frag' compilation succeeded.
+23:30:41 [DEBUG]: HttpClient::destroyInstance begin
+23:30:41 [DEBUG]: HttpClient destructor
+23:30:41 [DEBUG]: HttpClient::destroyInstance() finished!
+23:30:41 [DEBUG]: D/ ScriptEngine::cleanup begin ...
+
+23:30:41 [DEBUG]: D/ GC begin ..., (js->native map) size: 309
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2A46220 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2A44100 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2A43710 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2A46570 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2A43070 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2A42D20 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2A44AF0 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2A45830 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2A433C0 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2A45B80 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2A44450 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2A447A0 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2A43A60 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2A44E40 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2A43DB0 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD27D83B0 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD27D6930 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADCE6302F0 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD257C7B0 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD270AC90 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2709CA0 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD27AF8D0 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2B98320 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD2B98670 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD27E74B0 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD278CC40 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD27E7070 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD278CF90 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD278D2E0 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD299BC70 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADC74056C0 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD299AC50 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD27D7320 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD27D7670 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD27D6FD0 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD27D79C0 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD27D7D10 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD27D6C80 ... 
+
+23:30:41 [DEBUG]: D/ XMLHttpRequest_finalize, 000002ADD27D8060 ... 
+
+23:30:41 [DEBUG]: D/ GC end ..., (js->native map) size: 197
+
+23:30:41 [DEBUG]: D/ GC begin ..., (js->native map) size: 197
+
+23:30:41 [DEBUG]: D/ GC end ..., (js->native map) size: 197
+
+23:30:41 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
+
+23:30:41 [DEBUG]: D/ GC end ..., (js->native map) size: 0
+
+23:30:41 [DEBUG]: D/ ScriptEngine::cleanup end ...
+
+23:30:41 [DEBUG]: EGL context bounded to thread ad204e7396ddd370
+
+2023-05-03T15:32:08.577Z - log: 23:32:08 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+23:32:08 [DEBUG]: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+23:32:08 [DEBUG]: FRAME SCALE = 1.00
+23:32:08 [DEBUG]: Project Config:
+23:32:08 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release\
+23:32:08 [DEBUG]:     writable path: $(PROJDIR)\
+23:32:08 [DEBUG]:     script file: $(PROJDIR)\main.js
+23:32:08 [DEBUG]:     frame size: 667 x 375
+23:32:08 [DEBUG]:     frame scale: 1.00
+23:32:08 [DEBUG]:     show console: NO
+23:32:08 [DEBUG]:     write debug log: NO ()
+23:32:08 [DEBUG]:     listen: 
+23:32:08 [DEBUG]:     debugger: none
+23:32:08 [DEBUG]:     add searching path:
+23:32:08 [DEBUG]: 
+
+
+23:32:08 [DEBUG]: [WARNING]:not find lang
+23:32:08 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+23:32:08 [DEBUG]: EGL context bounded to thread e5bba1b5d7b3d69b
+23:32:08 [INFO]: GLES3 device initialized.
+23:32:08 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : Intel(R) Iris(R) Xe Graphics) (SDK Build: 18.1@5086772)
+23:32:08 [INFO]: VENDOR: Imagination Technologies (Host: Intel)
+23:32:08 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 - Build 31.0.101.3358)
+23:32:08 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+23:32:08 [INFO]: FRAMEBUFFER_FETCH: NONE
+23:32:08 [INFO]: Device validator enabled.
+23:32:08 [DEBUG]: D/ Initializing V8, version: 9.1.269
+
+23:32:08 [DEBUG]: D/ libuv version: 1.41.0
+
+23:32:08 [DEBUG]: D/ Number of interfaces: 8
+23:32:08 [DEBUG]: D/ Debugger listening..., visit [
+23:32:08 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+23:32:08 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.3.21:5086/00010002-0003-4004-8005-000600070008
+23:32:08 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.121.1:5086/00010002-0003-4004-8005-000600070008
+23:32:08 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.27.1:5086/00010002-0003-4004-8005-000600070008
+23:32:08 [DEBUG]: D/   ] in chrome browser to debug!
+23:32:08 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerWidth
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerHeight
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.windowHandler
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.btoa
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.atob
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Blob
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.URL
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DOMParser
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.XMLHttpRequest
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.SocketIO
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.WebSocket
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchstart
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchmove
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchend
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchcancel
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientLeft
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientTop
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageYOffset
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageXOffset
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerWidth
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerHeight
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientWidth
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientHeight
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.parent
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.top
+23:32:08 [DEBUG]: D/ JS: [DE
+2023-05-03T15:32:09.035Z - log: BUG]: [web-adapter] override window.location
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.document
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.navigator
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.CanvasRenderingContext2D
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Element
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLElement
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLCanvasElement
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLImageElement
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLMediaElement
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLVideoElement
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLScriptElement
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.__canvas
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Image
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FileReader
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFace
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFaceSet
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.EventTarget
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Event
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.TouchEvent
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.MouseEvent
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.KeyboardEvent
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DeviceMotionEvent
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.fetch
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Headers
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Request
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Response
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.orientation
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.devicePixelRatio
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.screen
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.addEventListener
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.removeEventListener
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.dispatchEvent
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.getComputedStyle
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.resize
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.focus
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.scroll
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window._isInjected
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.localStorage
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.requestAnimationFrame
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.cancelAnimationFrame
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setTimeout
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearTimeout
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setInterval
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearInterval
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.alert
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.io
+23:32:08 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.gameTick
+23:32:08 [DEBUG]: In the constructor of HttpClient!
+23:32:08 [DEBUG]: iShow!
+23:32:08 [DEBUG]: EventBus[Engine] has no listener found!
+23:32:08 [DEBUG]: D/ JS: 'cc.RenderPipeline._name' hides inherited property 'cc.Object._name'. To make the current property override that implementation, add the `override: true` attribute please.
+23:32:08 [DEBUG]: D/ JS: Can not declare cc.RenderPipeline._name, it is already defined in the prototype of cc.RenderPipeline
+23:32:09 [DEBUG]: D/ JS: [WARN]: Failed to set shading scale, pipelineSceneData is inval
+2023-05-03T15:32:11.252Z - log: (Info) Hardware profile: None
+(Info) PVRVFrame version 10.8
+
+2023-05-03T15:32:11.267Z - log: id.
+23:32:09 [DEBUG]: D/ JS: [WARN]: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
+23:32:09 [DEBUG]: D/ JS: [INFO]: [PHYSICS2D]: register box2d.
+23:32:09 [DEBUG]: EGL context bounded to thread 55669294c9c5d556
+23:32:09 [INFO]: Device thread detached.
+23:32:09 [DEBUG]: D/ JS: Cocos Creator v3.7.1
+23:32:09 [INFO]: Shader 'builtin-sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA0|USE_TEXTURE1|IS_GRAY0' compilation succeeded.
+23:32:09 [INFO]: Shader 'util/profiler|profiler-vs:vert|profiler-fs:frag' compilation succeeded.
+23:32:11 [DEBUG]: HttpClient::destroyInstance begin
+23:32:11 [DEBUG]: HttpClient destructor
+23:32:11 [DEBUG]: HttpClient::destroyInstance() finished!
+23:32:11 [DEBUG]: D/ ScriptEngine::cleanup begin ...
+
+23:32:11 [DEBUG]: D/ GC begin ..., (js->native map) size: 309
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A1DEFD0 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A1E1440 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A1DF320 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A1DE5E0 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A1E10F0 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A1E1790 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A1DE930 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A1E1AE0 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A1DDF40 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A1DF9C0 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A1DF670 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A1DEC80 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A1E0DA0 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A1DFD10 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A1E03B0 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A3F5560 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A3F58B0 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE19C87500 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE15E8A440 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE19C7AA40 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE19C769F0 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A3C8C70 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE19F12F80 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE19C62990 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE19C906A0 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A3B5C00 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A3C0C30 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE19D4DD50 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A08EC80 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE19EF4D80 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE19FCA8D0 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A3E3C00 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A3F62A0 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A3F5C00 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A3F6FE0 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A3F5F50 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A3F65F0 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A3F6C90 ... 
+
+23:32:11 [DEBUG]: D/ XMLHttpRequest_finalize, 000002AE1A3F6940 ... 
+
+23:32:11 [DEBUG]: D/ GC end ..., (js->native map) size: 197
+
+23:32:11 [DEBUG]: D/ GC begin ..., (js->native map) size: 197
+
+23:32:11 [DEBUG]: D/ GC end ..., (js->native map) size: 197
+
+23:32:11 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
+
+23:32:11 [DEBUG]: D/ GC end ..., (js->native map) size: 0
+
+23:32:11 [DEBUG]: D/ ScriptEngine::cleanup end ...
+
+23:32:11 [DEBUG]: EGL context bounded to thread 55669294c9c5d556
+
+2023-05-03T15:33:56.995Z - log: 23:33:56 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+23:33:56 [DEBUG]: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+23:33:56 [DEBUG]: FRAME SCALE = 1.00
+23:33:56 [DEBUG]: Project Config:
+23:33:56 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release\
+23:33:56 [DEBUG]:     writable path: $(PROJDIR)\
+23:33:56 [DEBUG]:     script file: $(PROJDIR)\main.js
+23:33:56 [DEBUG]:     frame size: 667 x 375
+23:33:56 [DEBUG]:     frame scale: 1.00
+23:33:56 [DEBUG]:     show console: NO
+23:33:56 [DEBUG]:     write debug log: NO ()
+23:33:56 [DEBUG]:     listen: 
+23:33:56 [DEBUG]:     debugger: none
+23:33:56 [DEBUG]:     add searching path:
+23:33:56 [DEBUG]: 
+
+
+23:33:56 [DEBUG]: [WARNING]:not find lang
+23:33:56 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+23:33:56 [DEBUG]: EGL context bounded to thread c94ae40fe4a8e4aa
+23:33:56 [INFO]: GLES3 device initialized.
+23:33:56 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : Intel(R) Iris(R) Xe Graphics) (SDK Build: 18.1@5086772)
+23:33:56 [INFO]: VENDOR: Imagination Technologies (Host: Intel)
+23:33:56 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 - Build 31.0.101.3358)
+23:33:56 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+23:33:56 [INFO]: FRAMEBUFFER_FETCH: NONE
+23:33:56 [INFO]: Device validator enabled.
+23:33:56 [DEBUG]: D/ Initializing V8, version: 9.1.269
+
+23:33:56 [DEBUG]: D/ libuv version: 1.41.0
+
+23:33:56 [DEBUG]: D/ Number of interfaces: 8
+23:33:56 [DEBUG]: D/ Debugger listening..., visit [
+23:33:56 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+23:33:56 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.3.21:5086/00010002-0003-4004-8005-000600070008
+23:33:56 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.121.1:5086/00010002-0003-4004-8005-000600070008
+23:33:56 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.27.1:5086/00010002-0003-4004-8005-000600070008
+23:33:56 [DEBUG]: D/   ] in chrome browser to debug!
+23:33:56 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerWidth
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerHeight
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.windowHandler
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.btoa
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.atob
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Blob
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.URL
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DOMParser
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.XMLHttpRequest
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.SocketIO
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.WebSocket
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchstart
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchmove
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchend
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchcancel
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientLeft
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientTop
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageYOffset
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageXOffset
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerWidth
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerHeight
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientWidth
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientHeight
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.parent
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.top
+23:33:56 [DEBUG]: D/ JS: [DE
+2023-05-03T15:33:57.447Z - log: BUG]: [web-adapter] override window.location
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.document
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.navigator
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.CanvasRenderingContext2D
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Element
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLElement
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLCanvasElement
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLImageElement
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLMediaElement
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLVideoElement
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLScriptElement
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.__canvas
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Image
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FileReader
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFace
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFaceSet
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.EventTarget
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Event
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.TouchEvent
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.MouseEvent
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.KeyboardEvent
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DeviceMotionEvent
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.fetch
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Headers
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Request
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Response
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.orientation
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.devicePixelRatio
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.screen
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.addEventListener
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.removeEventListener
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.dispatchEvent
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.getComputedStyle
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.resize
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.focus
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.scroll
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window._isInjected
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.localStorage
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.requestAnimationFrame
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.cancelAnimationFrame
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setTimeout
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearTimeout
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setInterval
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearInterval
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.alert
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.io
+23:33:56 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.gameTick
+23:33:57 [DEBUG]: In the constructor of HttpClient!
+23:33:57 [DEBUG]: iShow!
+23:33:57 [DEBUG]: EventBus[Engine] has no listener found!
+23:33:57 [DEBUG]: D/ JS: 'cc.RenderPipeline._name' hides inherited property 'cc.Object._name'. To make the current property override that implementation, add the `override: true` attribute please.
+23:33:57 [DEBUG]: D/ JS: Can not declare cc.RenderPipeline._name, it is already defined in the prototype of cc.RenderPipeline
+23:33:57 [DEBUG]: D/ JS: [WARN]: Failed to set shading scale, pipelineSceneData is inval
+2023-05-03T15:34:02.943Z - log: (Info) Hardware profile: None
+(Info) PVRVFrame version 10.8
+
+2023-05-03T15:34:02.957Z - log: id.
+23:33:57 [DEBUG]: D/ JS: [WARN]: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
+23:33:57 [DEBUG]: D/ JS: [INFO]: [PHYSICS2D]: register box2d.
+23:33:57 [DEBUG]: EGL context bounded to thread 5305655f21bee5c0
+23:33:57 [INFO]: Device thread detached.
+23:33:57 [DEBUG]: D/ JS: Cocos Creator v3.7.1
+23:33:58 [INFO]: Shader 'builtin-sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA0|USE_TEXTURE1|IS_GRAY0' compilation succeeded.
+23:33:58 [INFO]: Shader 'util/profiler|profiler-vs:vert|profiler-fs:frag' compilation succeeded.
+23:34:02 [DEBUG]: HttpClient::destroyInstance begin
+23:34:02 [DEBUG]: HttpClient destructor
+23:34:02 [DEBUG]: HttpClient::destroyInstance() finished!
+23:34:02 [DEBUG]: D/ ScriptEngine::cleanup begin ...
+
+23:34:02 [DEBUG]: D/ GC begin ..., (js->native map) size: 309
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E972A180 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E972A820 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E972AEC0 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9727670 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E97279C0 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9727D10 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E999C5E0 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E999D320 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E999D9C0 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E999E060 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E999E3B0 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E999B8A0 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E999C290 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E999DD10 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E999BBF0 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E972A4D0 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9728DA0 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E93C4040 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E93D38C0 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E97215D0 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9721C70 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9722310 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9721280 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9721FC0 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9721920 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9722660 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E97229B0 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9722D00 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E97290F0 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9728060 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E97283B0 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9729440 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E972AB70 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9727320 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9729790 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9729AE0 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9729E30 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9728700 ... 
+
+23:34:02 [DEBUG]: D/ XMLHttpRequest_finalize, 00000233E9728A50 ... 
+
+23:34:02 [DEBUG]: D/ GC end ..., (js->native map) size: 197
+
+23:34:02 [DEBUG]: D/ GC begin ..., (js->native map) size: 197
+
+23:34:02 [DEBUG]: D/ GC end ..., (js->native map) size: 197
+
+23:34:02 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
+
+23:34:02 [DEBUG]: D/ GC end ..., (js->native map) size: 0
+
+23:34:02 [DEBUG]: D/ ScriptEngine::cleanup end ...
+
+23:34:02 [DEBUG]: EGL context bounded to thread 5305655f21bee5c0
+
+2023-05-03T15:34:22.026Z - log: 23:34:21 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+23:34:21 [DEBUG]: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+23:34:21 [DEBUG]: FRAME SCALE = 1.00
+23:34:21 [DEBUG]: Project Config:
+23:34:21 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release\
+23:34:21 [DEBUG]:     writable path: $(PROJDIR)\
+23:34:21 [DEBUG]:     script file: $(PROJDIR)\main.js
+23:34:21 [DEBUG]:     frame size: 667 x 375
+23:34:21 [DEBUG]:     frame scale: 1.00
+23:34:21 [DEBUG]:     show console: NO
+23:34:21 [DEBUG]:     write debug log: NO ()
+23:34:21 [DEBUG]:     listen: 
+23:34:21 [DEBUG]:     debugger: none
+23:34:21 [DEBUG]:     add searching path:
+23:34:21 [DEBUG]: 
+
+
+23:34:21 [DEBUG]: [WARNING]:not find lang
+23:34:21 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+23:34:21 [DEBUG]: EGL context bounded to thread 5130883cc437b798
+23:34:21 [INFO]: GLES3 device initialized.
+23:34:21 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : Intel(R) Iris(R) Xe Graphics) (SDK Build: 18.1@5086772)
+23:34:21 [INFO]: VENDOR: Imagination Technologies (Host: Intel)
+23:34:21 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 - Build 31.0.101.3358)
+23:34:21 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+23:34:21 [INFO]: FRAMEBUFFER_FETCH: NONE
+23:34:21 [INFO]: Device validator enabled.
+23:34:21 [DEBUG]: D/ Initializing V8, version: 9.1.269
+
+23:34:21 [DEBUG]: D/ libuv version: 1.41.0
+
+23:34:22 [DEBUG]: D/ Number of interfaces: 8
+23:34:22 [DEBUG]: D/ Debugger listening..., visit [
+23:34:22 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+23:34:22 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.3.21:5086/00010002-0003-4004-8005-000600070008
+23:34:22 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.121.1:5086/00010002-0003-4004-8005-000600070008
+23:34:22 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.27.1:5086/00010002-0003-4004-8005-000600070008
+23:34:22 [DEBUG]: D/   ] in chrome browser to debug!
+23:34:22 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerWidth
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerHeight
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.windowHandler
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.btoa
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.atob
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Blob
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.URL
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DOMParser
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.XMLHttpRequest
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.SocketIO
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.WebSocket
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchstart
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchmove
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchend
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchcancel
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientLeft
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientTop
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageYOffset
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageXOffset
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerWidth
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerHeight
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientWidth
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientHeight
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.parent
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.top
+23:34:22 [DEBUG]: D/ JS: [DE
+2023-05-03T15:34:22.484Z - log: BUG]: [web-adapter] override window.location
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.document
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.navigator
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.CanvasRenderingContext2D
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Element
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLElement
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLCanvasElement
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLImageElement
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLMediaElement
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLVideoElement
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLScriptElement
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.__canvas
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Image
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FileReader
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFace
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFaceSet
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.EventTarget
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Event
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.TouchEvent
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.MouseEvent
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.KeyboardEvent
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DeviceMotionEvent
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.fetch
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Headers
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Request
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Response
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.orientation
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.devicePixelRatio
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.screen
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.addEventListener
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.removeEventListener
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.dispatchEvent
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.getComputedStyle
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.resize
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.focus
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.scroll
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window._isInjected
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.localStorage
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.requestAnimationFrame
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.cancelAnimationFrame
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setTimeout
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearTimeout
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setInterval
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearInterval
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.alert
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.io
+23:34:22 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.gameTick
+23:34:22 [DEBUG]: In the constructor of HttpClient!
+23:34:22 [DEBUG]: iShow!
+23:34:22 [DEBUG]: EventBus[Engine] has no listener found!
+23:34:22 [DEBUG]: D/ JS: 'cc.RenderPipeline._name' hides inherited property 'cc.Object._name'. To make the current property override that implementation, add the `override: true` attribute please.
+23:34:22 [DEBUG]: D/ JS: Can not declare cc.RenderPipeline._name, it is already defined in the prototype of cc.RenderPipeline
+23:34:22 [DEBUG]: D/ JS: [WARN]: Failed to set shading scale, pipelineSceneData is inval
+2023-05-03T15:34:25.111Z - log: id.
+23:34:22 [DEBUG]: D/ JS: [WARN]: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
+23:34:22 [DEBUG]: D/ JS: [INFO]: [PHYSICS2D]: register box2d.
+23:34:22 [DEBUG]: EGL context bounded to thread 7761a6c2134b037f
+23:34:22 [INFO]: Device thread detached.
+23:34:22 [DEBUG]: D/ JS: Cocos Creator v3.7.1
+23:34:23 [DEBUG]: D/ JS: [object Object]
+23:34:23 [INFO]: Shader 'builtin-sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA0|USE_TEXTURE1|IS_GRAY0' compilation succeeded.
+23:34:23 [INFO]: Shader 'util/profiler|profiler-vs:vert|profiler-fs:frag' compilation succeeded.
+23:34:25 [DEBUG]: HttpClient::destroyInstance begin
+23:34:25 [DEBUG]: HttpClient destructor
+23:34:25 [DEBUG]: HttpClient::destroyInstance() finished!
+23:34:25 [DEBUG]: D/ ScriptEngine::cleanup begin ...
+
+23:34:25 [DEBUG]: D/ GC begin ..., (js->native map) size: 325
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E825D0 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E80B50 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E7FE10 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E7F420 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E81540 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E804B0 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF2A163910 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF2A162F20 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF2A164300 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF2A163FB0 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF2A165390 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF2A164650 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF2A165040 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF2A163C60 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF2A162BD0 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF2A1649A0 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF2A165D80 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF2A163270 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF2A1656E0 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E81F30 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E811F0 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF25A627C0 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF25AECFC0 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E37ED0 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E374E0 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E38C10 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E388C0 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E37190 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E37830 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E38220 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E37B80 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E38570 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E80800 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E81890 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E7ED80 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E7F0D0 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E81BE0 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E82280 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E7EA30 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E80160 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E80EA0 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E7FAC0 ... 
+
+23:34:25 [DEBUG]: D/ XMLHttpRequest_finalize, 000001BF29E7F770 ... 
+
+23:34:25 [DEBUG]: D/ GC end ..., (js->native map) size: 207
+
+23:34:25 [DEBUG]: D/ GC begin ..., (js->native map) size: 207
+
+23:34:25 [DEBUG]: D/ GC 
+2023-05-03T15:34:25.195Z - log: (Info) Hardware profile: None
+(Info) PVRVFrame version 10.8
+
+2023-05-03T15:34:25.197Z - log: end ..., (js->native map) size: 207
+
+23:34:25 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
+
+23:34:25 [DEBUG]: D/ GC end ..., (js->native map) size: 0
+
+23:34:25 [DEBUG]: D/ ScriptEngine::cleanup end ...
+
+23:34:25 [DEBUG]: EGL context bounded to thread 7761a6c2134b037f
+
+2023-05-03T15:34:43.865Z - log: 23:34:43 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+23:34:43 [DEBUG]: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+23:34:43 [DEBUG]: FRAME SCALE = 1.00
+23:34:43 [DEBUG]: Project Config:
+23:34:43 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release\
+23:34:43 [DEBUG]:     writable path: $(PROJDIR)\
+23:34:43 [DEBUG]:     script file: $(PROJDIR)\main.js
+23:34:43 [DEBUG]:     frame size: 667 x 375
+23:34:43 [DEBUG]:     frame scale: 1.00
+23:34:43 [DEBUG]:     show console: NO
+23:34:43 [DEBUG]:     write debug log: NO ()
+23:34:43 [DEBUG]:     listen: 
+23:34:43 [DEBUG]:     debugger: none
+23:34:43 [DEBUG]:     add searching path:
+23:34:43 [DEBUG]: 
+
+
+23:34:43 [DEBUG]: [WARNING]:not find lang
+23:34:43 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+23:34:43 [DEBUG]: EGL context bounded to thread 2dccfdd73b0348b2
+23:34:43 [INFO]: GLES3 device initialized.
+23:34:43 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : Intel(R) Iris(R) Xe Graphics) (SDK Build: 18.1@5086772)
+23:34:43 [INFO]: VENDOR: Imagination Technologies (Host: Intel)
+23:34:43 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 - Build 31.0.101.3358)
+23:34:43 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+23:34:43 [INFO]: FRAMEBUFFER_FETCH: NONE
+23:34:43 [INFO]: Device validator enabled.
+23:34:43 [DEBUG]: D/ Initializing V8, version: 9.1.269
+
+23:34:43 [DEBUG]: D/ libuv version: 1.41.0
+
+23:34:43 [DEBUG]: D/ Number of interfaces: 8
+23:34:43 [DEBUG]: D/ Debugger listening..., visit [
+23:34:43 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+23:34:43 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.3.21:5086/00010002-0003-4004-8005-000600070008
+23:34:43 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.121.1:5086/00010002-0003-4004-8005-000600070008
+23:34:43 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.27.1:5086/00010002-0003-4004-8005-000600070008
+23:34:43 [DEBUG]: D/   ] in chrome browser to debug!
+23:34:43 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerWidth
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerHeight
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.windowHandler
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.btoa
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.atob
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Blob
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.URL
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DOMParser
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.XMLHttpRequest
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.SocketIO
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.WebSocket
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchstart
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchmove
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchend
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchcancel
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientLeft
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientTop
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageYOffset
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageXOffset
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerWidth
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerHeight
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientWidth
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientHeight
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.parent
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.top
+23:34:43 [DEBUG]: D/ JS: [DE
+2023-05-03T15:34:44.334Z - log: BUG]: [web-adapter] override window.location
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.document
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.navigator
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.CanvasRenderingContext2D
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Element
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLElement
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLCanvasElement
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLImageElement
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLMediaElement
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLVideoElement
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLScriptElement
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.__canvas
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Image
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FileReader
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFace
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFaceSet
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.EventTarget
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Event
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.TouchEvent
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.MouseEvent
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.KeyboardEvent
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DeviceMotionEvent
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.fetch
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Headers
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Request
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Response
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.orientation
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.devicePixelRatio
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.screen
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.addEventListener
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.removeEventListener
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.dispatchEvent
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.getComputedStyle
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.resize
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.focus
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.scroll
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window._isInjected
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.localStorage
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.requestAnimationFrame
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.cancelAnimationFrame
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setTimeout
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearTimeout
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setInterval
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearInterval
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.alert
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.io
+23:34:43 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.gameTick
+23:34:43 [DEBUG]: In the constructor of HttpClient!
+23:34:43 [DEBUG]: iShow!
+23:34:43 [DEBUG]: EventBus[Engine] has no listener found!
+23:34:44 [DEBUG]: D/ JS: 'cc.RenderPipeline._name' hides inherited property 'cc.Object._name'. To make the current property override that implementation, add the `override: true` attribute please.
+23:34:44 [DEBUG]: D/ JS: Can not declare cc.RenderPipeline._name, it is already defined in the prototype of cc.RenderPipeline
+23:34:44 [DEBUG]: D/ JS: [WARN]: Failed to set shading scale, pipelineSceneData is inval
+2023-05-03T15:35:05.888Z - log: id.
+23:34:44 [DEBUG]: D/ JS: [WARN]: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
+23:34:44 [DEBUG]: D/ JS: [INFO]: [PHYSICS2D]: register box2d.
+23:34:44 [DEBUG]: EGL context bounded to thread fbfe387417beb5c8
+23:34:44 [INFO]: Device thread detached.
+23:34:44 [DEBUG]: D/ JS: Cocos Creator v3.7.1
+23:34:45 [DEBUG]: D/ JS: [object Object]
+23:34:45 [INFO]: Shader 'builtin-sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA0|USE_TEXTURE1|IS_GRAY0' compilation succeeded.
+23:34:45 [INFO]: Shader 'util/profiler|profiler-vs:vert|profiler-fs:frag' compilation succeeded.
+23:35:05 [ERROR]: [SE_ERROR]  (E:\editor_3d\v3.7.1\resources\3d\engine\native\cocos\bindings\jswrapper\v8\Object.cpp, 754): Invoking function failed, TypeError: Cannot read property 'getViewSize' of null
+    at MouseInputSource._getLocation (src/cocos-js/builtin-res-mgr.jsb-12be8fbd.js:4183:43)
+    at src/cocos-js/builtin-res-mgr.jsb-12be8fbd.js:4199:41
+23:35:05 [ERROR]: [SE_ERROR]  (E:\editor_3d\v3.7.1\resources\3d\engine\native\cocos\bindings\jswrapper\v8\Object.cpp, 764): Invoking function (000001B24743C4A0) failed!
+23:35:05 [DEBUG]: HttpClient::destroyInstance begin
+23:35:05 [DEBUG]: HttpClient destructor
+23:35:05 [DEBUG]: HttpClient::destroyInstance() finished!
+23:35:05 [DEBUG]: D/ ScriptEngine::cleanup begin ...
+
+23:35:05 [DEBUG]: D/ GC begin ..., (js->native map) size: 325
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24714E880 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B2471509A0 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24714D4A0 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24714CE00 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24714D7F0 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24714DB40 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24714FC60 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24714D150 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24714EF20 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24714DE90 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24714FFB0 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24714EBD0 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24714F910 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B247150300 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24714E530 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B247150650 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24714F270 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24714E1E0 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24714F5C0 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246B98CF0 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246B99040 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246AC9AB0 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246AC1350 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246A80090 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B2471CCC90 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246A86A50 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246BBA1E0 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246A7B620 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246D60270 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246A55770 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246A63CA0 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246BEB300 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246E63BF0 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B24738A970 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246A6D1D0 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246D0E9E0 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246B99390 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_f
+2023-05-03T15:35:05.978Z - log: (Info) Hardware profile: None
+(Info) PVRVFrame version 10.8
+
+2023-05-03T15:35:05.980Z - log: inalize, 000001B246B9A420 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246B99D80 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246B989A0 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246B996E0 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246B99A30 ... 
+
+23:35:05 [DEBUG]: D/ XMLHttpRequest_finalize, 000001B246B9A0D0 ... 
+
+23:35:05 [DEBUG]: D/ GC end ..., (js->native map) size: 207
+
+23:35:05 [DEBUG]: D/ GC begin ..., (js->native map) size: 207
+
+23:35:05 [DEBUG]: D/ GC end ..., (js->native map) size: 207
+
+23:35:05 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
+
+23:35:05 [DEBUG]: D/ GC end ..., (js->native map) size: 0
+
+23:35:05 [DEBUG]: D/ ScriptEngine::cleanup end ...
+
+23:35:05 [DEBUG]: EGL context bounded to thread fbfe387417beb5c8
+
+2023-05-03T15:35:10.240Z - log: 23:35:10 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+23:35:10 [DEBUG]: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+23:35:10 [DEBUG]: FRAME SCALE = 1.00
+23:35:10 [DEBUG]: Project Config:
+23:35:10 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release\
+23:35:10 [DEBUG]:     writable path: $(PROJDIR)\
+23:35:10 [DEBUG]:     script file: $(PROJDIR)\main.js
+23:35:10 [DEBUG]:     frame size: 667 x 375
+23:35:10 [DEBUG]:     frame scale: 1.00
+23:35:10 [DEBUG]:     show console: NO
+23:35:10 [DEBUG]:     write debug log: NO ()
+23:35:10 [DEBUG]:     listen: 
+23:35:10 [DEBUG]:     debugger: none
+23:35:10 [DEBUG]:     add searching path:
+23:35:10 [DEBUG]: 
+
+
+23:35:10 [DEBUG]: [WARNING]:not find lang
+23:35:10 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+23:35:10 [DEBUG]: EGL context bounded to thread 6b3485197370e76
+23:35:10 [INFO]: GLES3 device initialized.
+23:35:10 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : Intel(R) Iris(R) Xe Graphics) (SDK Build: 18.1@5086772)
+23:35:10 [INFO]: VENDOR: Imagination Technologies (Host: Intel)
+23:35:10 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 - Build 31.0.101.3358)
+23:35:10 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+23:35:10 [INFO]: FRAMEBUFFER_FETCH: NONE
+23:35:10 [INFO]: Device validator enabled.
+23:35:10 [DEBUG]: D/ Initializing V8, version: 9.1.269
+
+23:35:10 [DEBUG]: D/ libuv version: 1.41.0
+
+23:35:10 [DEBUG]: D/ Number of interfaces: 8
+23:35:10 [DEBUG]: D/ Debugger listening..., visit [
+23:35:10 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+23:35:10 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.3.21:5086/00010002-0003-4004-8005-000600070008
+23:35:10 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.121.1:5086/00010002-0003-4004-8005-000600070008
+23:35:10 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.27.1:5086/00010002-0003-4004-8005-000600070008
+23:35:10 [DEBUG]: D/   ] in chrome browser to debug!
+23:35:10 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerWidth
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.innerHeight
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.windowHandler
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.btoa
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.atob
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Blob
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.URL
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DOMParser
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.XMLHttpRequest
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.SocketIO
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.WebSocket
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchstart
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchmove
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchend
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.ontouchcancel
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientLeft
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientTop
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageYOffset
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.pageXOffset
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerWidth
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.outerHeight
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientWidth
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clientHeight
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.parent
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.top
+23:35:10 [DEBUG]: D/ JS: [DEB
+2023-05-03T15:35:10.716Z - log: UG]: [web-adapter] override window.location
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.document
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.navigator
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.CanvasRenderingContext2D
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Element
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLElement
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLCanvasElement
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLImageElement
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLMediaElement
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLVideoElement
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.HTMLScriptElement
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.__canvas
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Image
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FileReader
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFace
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.FontFaceSet
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.EventTarget
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Event
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.TouchEvent
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.MouseEvent
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.KeyboardEvent
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.DeviceMotionEvent
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.fetch
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Headers
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Request
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.Response
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.orientation
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.devicePixelRatio
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.screen
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.addEventListener
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.removeEventListener
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.dispatchEvent
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.getComputedStyle
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.resize
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.focus
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.scroll
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window._isInjected
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.localStorage
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.requestAnimationFrame
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.cancelAnimationFrame
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setTimeout
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearTimeout
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.setInterval
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.clearInterval
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.alert
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.io
+23:35:10 [DEBUG]: D/ JS: [DEBUG]: [web-adapter] override window.gameTick
+23:35:10 [DEBUG]: In the constructor of HttpClient!
+23:35:10 [DEBUG]: iShow!
+23:35:10 [DEBUG]: EventBus[Engine] has no listener found!
+23:35:10 [DEBUG]: D/ JS: 'cc.RenderPipeline._name' hides inherited property 'cc.Object._name'. To make the current property override that implementation, add the `override: true` attribute please.
+23:35:10 [DEBUG]: D/ JS: Can not declare cc.RenderPipeline._name, it is already defined in the prototype of cc.RenderPipeline
+23:35:10 [DEBUG]: D/ JS: [WARN]: Failed to set shading scale, pipelineSceneData is invali
+2023-05-03T15:35:17.093Z - log: d.
+23:35:10 [DEBUG]: D/ JS: [WARN]: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.7.1\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
+23:35:10 [DEBUG]: D/ JS: [INFO]: [PHYSICS2D]: register box2d.
+23:35:10 [DEBUG]: EGL context bounded to thread 6e09a4cd9032e6d3
+23:35:10 [INFO]: Device thread detached.
+23:35:12 [DEBUG]: D/ JS: Cocos Creator v3.7.1
+23:35:12 [DEBUG]: D/ JS: [object Object]
+23:35:12 [INFO]: Shader 'builtin-sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA0|USE_TEXTURE1|IS_GRAY0' compilation succeeded.
+23:35:12 [INFO]: Shader 'util/profiler|profiler-vs:vert|profiler-fs:frag' compilation succeeded.
+23:35:17 [DEBUG]: HttpClient::destroyInstance begin
+23:35:17 [DEBUG]: HttpClient destructor
+23:35:17 [DEBUG]: HttpClient::destroyInstance() finished!
+23:35:17 [DEBUG]: D/ ScriptEngine::cleanup begin ...
+
+23:35:17 [DEBUG]: D/ GC begin ..., (js->native map) size: 325
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F2D8D0 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F2DC20 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F30090 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F2DF70 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F2CEE0 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F2E610 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F2E2C0 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F303E0 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F2E960 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F2ECB0 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F2F000 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F2F350 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F2F6A0 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F2F9F0 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F2FD40 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F30730 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 000002384830ECB0 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 000002384830FD40 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023848310A80 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F2D230 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F2CB90 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847D4D630 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847DA9830 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 000002384810CEC0 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F09170 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023843FA68E0 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 00000238480FCE10 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847D98930 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847E87670 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847E81640 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023848363C30 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023848012C40 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 000002384837BA90 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 00000238480019F0 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023848001D40 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 00000238480002C0 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023848000610 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023848000960 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023848000CB0 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023848001000 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023848001350 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 00000238480016A0 ... 
+
+23:35:17 [DEBUG]: D/ XMLHttpRequest_finalize, 0000023847F2D580 ... 
+
+23:35:17 [DEBUG]: D/ GC end ..., (js->native map) size: 207
+
+23:35:17 [DEBUG]: D/ GC begin ..., (js->native map) size: 207
+
+23:35:17 [DEBUG]: D/ GC e
+2023-05-03T15:35:17.174Z - log: (Info) Hardware profile: None
+(Info) PVRVFrame version 10.8
+
+2023-05-03T15:35:17.182Z - log: nd ..., (js->native map) size: 207
+
+23:35:17 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
+
+23:35:17 [DEBUG]: D/ GC end ..., (js->native map) size: 0
+
+23:35:17 [DEBUG]: D/ ScriptEngine::cleanup end ...
+
+23:35:17 [DEBUG]: EGL context bounded to thread 6e09a4cd9032e6d3
+
+2023-05-03T15:38:08.099Z - warn: Metrics: no valid info
